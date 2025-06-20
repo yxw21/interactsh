@@ -33,6 +33,8 @@ require (
 	gopkg.in/yaml.v3 v3.0.1
 )
 
+replace git.mills.io/prologic/smtpd => ./internal/smtpd
+
 require (
 	aead.dev/minisign v0.2.0 // indirect
 	github.com/Masterminds/semver/v3 v3.2.1 // indirect
